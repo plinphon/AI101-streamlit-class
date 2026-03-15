@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ===== YOLO / Ultralytics =====
+runs/
+ultralytics/
+yolo*/runs/
+
+# ===== Streamlit =====
+.streamlit/
+*.log
+
+# ===== Data =====
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# ===== Images =====
+*.jpg
+*.jpeg
+*.png
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Secrets =====
+.env
+.env.*
